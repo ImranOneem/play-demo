@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
 )
 
 enablePlugins(DebianPlugin)
-maintener:= "imranoneem"
+maintainer := "imranoneem"
 packageSummary := "My custom Package"
 packageDescription := "Package"
