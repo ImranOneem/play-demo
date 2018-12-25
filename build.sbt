@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintener:= "imranoneem"
+packageSummary := "My custom Package"
+packageDescription := "Package"
